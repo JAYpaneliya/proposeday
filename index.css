@@ -1,0 +1,147 @@
+body {
+  background: url(https://wallpapers.com/images/hd/pink-heart-background-r0r0gaj1twckghlp.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coll {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 5px;
+  background-color: rgb(232, 129, 241);
+  /* border-radius: rgb(155, 28, 148); */
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  left: -600px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coll-2 {
+  width: 700px;
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 5px;
+  background-color: rgb(241, 102, 230);
+  /* border-radius: rgb(155, 28, 148); */
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  right: 350px;
+}
+
+.coll-2 h2 {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.coll-3 {
+  width: 750px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 5px;
+  background-color: rgb(202, 28, 202);
+  /* border-radius: rgb(155, 28, 148); */
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  left: -80px;
+  top: 20px;
+}
+
+.coll-3 h2 {
+  display: inline;
+  justify-content: center;
+  font-size: 50px;
+  position: relative;
+  right: -30px;
+  top: 40px;
+}
+
+.coll-4 {
+  width: 600px;
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 5px;
+  background-color: rgb(146, 34, 109);
+  /* border-radius: rgb(155, 28, 148); */
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  right: -90px;
+}
+
+.coll-4 h2 {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+}
+
+.coll-5 {
+  width: 700px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 5px;
+  background-color: rgb(185, 67, 150);
+  /* border-radius: rgb(155, 28, 148); */
+  margin-top: 200px;
+  display: inline-block;
+  position: relative;
+  right: -300px;
+}
+
+.coll-5 h2 {
+  font-size: 70px;
+}
+
+.coll-6 {
+  width: 900px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: width 250ms ease, height 250ms ease;
+  border-radius: 5px;
+  background-color: rgb(207, 0, 97);
+  /* border-radius: rgb(155, 28, 148); */
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  right: -500px;
+}
+
+.coll-6 h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 10px;
+}
+a {
+  color: rgb(109, 13, 104);
+  text-decoration: none;
+}
